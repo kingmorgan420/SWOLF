@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWOLF - Stunt Way of Life</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #0b0b0b;
+      color: #f0f0f0;
+    }
+    header {
+      background: linear-gradient(90deg, #000, #222);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #fdd835;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      background-color: #111;
+      padding: 15px 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      color: #fdd835;
+    }
+    .galeria img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    input, textarea, button {
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    input, textarea {
+      width: 100%;
+    }
+    button {
+      background-color: #fdd835;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #ffe85c;
+    }
+    .social-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .social-buttons a {
+      color: #fdd835;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      background-color: #111;
+      padding: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="img/logo.png" alt="SWOLF Logo">
+  <h1>SWOLF</h1>
+  <p>Stunt Way of Life - Vive el movimiento</p>
+</header>
+
+<nav>
+  <a href="#galeria">Galería</a>
+  <a href="#tienda">Tienda</a>
+  <a href="#eventos">Eventos</a>
+  <a href="#podcast">Stuntrap</a>
+  <a href="#registro">Registro</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="galeria">
+  <h2>Galería SWOLF</h2>
+  <div class="galeria">
+    <img src="img/1.png" alt="Foto 1">
+    <img src="img/2.png" alt="Foto 2">
+    <img src="img/3.png" alt="Foto 3">
+    <img src="img/4.png" alt="Foto 4">
+    <img src="img/5.png" alt="Foto 5">
+    <img src="img/6.png" alt="Foto 6">
+  </div>
+</section>
+
+<section id="tienda">
+  <h2>Tienda Oficial</h2>
+  <p>Adquiere nuestras camisetas oversize, edición limitada y productos exclusivos del movimiento SWOLF.</p>
+</section>
+
+<section id="eventos">
+  <h2>Festival Virtual SWOLF 2025</h2>
+  <p>Concurso de fotos, entrevistas, música, sorteos y lanzamiento de nuevas prendas. ¡Haz parte de esta edición inolvidable!</p>
+  <p><strong>Fecha:</strong> 15 de mayo de 2025<br>
+  <strong>Hora:</strong> 6:00 PM<br>
+  <strong>Transmisión en vivo:</strong> Instagram, TikTok y Facebook Live</p>
+</section>
+
+<section id="podcast">
+  <h2>Stuntrap Podcast</h2>
+  <p>Donde la calle y el arte se encuentran. Conoce a los riders y artistas que viven el Stunt Way of Life.</p>
+</section>
+
+<section id="registro">
+  <h2>Regístrate</h2>
+  <form action="https://formspree.io/f/xeqybjvb" method="POST">
+    <input type="text" name="nombre" placeholder="Nombre completo" required>
+    <input type="email" name="email" placeholder="Correo electrónico" required>
+    <textarea name="mensaje" rows="4" placeholder="¿Por qué quieres participar?" required></textarea>
+    <button type="submit">Unirme al movimiento</button>
+  </form>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <form action="https://formspree.io/f/xleqjewy" method="POST">
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="email" name="email" placeholder="Correo" required>
+    <textarea name="mensaje" rows="4" placeholder="Cuéntanos tu idea o pedido" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<section class="social-buttons">
+  <a href="https://wa.me/573001112233" target="_blank">📱 WhatsApp</a>
+  <a href="https://instagram.com/swolf" target="_blank">📸 Instagram</a>
+  <a href="https://tiktok.com/@swolf" target="_blank">🎥 TikTok</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 SWOLF. Proyecto de King Morgan. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
